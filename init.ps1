@@ -3,6 +3,7 @@ $ENV:Path += 'C:\Users\guest01\Desktop'
 # Chocolatey install program
 # comes from: https://chocolatey.org/install#non-administrative-install
 $CHOCO_InstallDir='C:\Users\guest01\Desktop\chocoportable'
+mkdir $CHOCO_InstallDir
 $ENV:ChocolateyInstall="$CHOCO_InstallDir"
 
 Set-ExecutionPolicy Bypass
